@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+            function scrollToTop(){
+              window.scroll(0, 0)
+            }
+          </script>
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ignitiv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1c74e082c5.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero-baner {
+            background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-s.png),url(https://www.ignitiv.com/wp-content/uploads/2020/09/slide-y.png),url(https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Transformation.jpg);
+            background-repeat: no-repeat,no-repeat,no-repeat;
+            background-size: 600px,800px,cover;
+            background-position: -350px 50px,950px 80px,center;
+            height: 100vh;
+            color: white;
+            /* filter: grayscale(100%); */
+        }
+       
+        .row {
+            display: flex;
+        }
+        .col-4 {
+            width: 40%;
+        }
+        .logo {
+            margin: 0;
+            font-size: 48px;
+            margin-left: 20px;
+        }
+        .col-8 {
+            width: 60%;
+            /* font-family: 'Rubik Microbe', cursive; */
+        }
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin-top: 28px;
+        }
+        .nav-bar {
+            text-decoration: none;
+            color: white;
+        }
+        header .container {
+            padding: 24px;
+        } 
+        span {
+            display: block;
+        }
+        .text h1 {
+            font-size: 58px;
+        }
+        .btn-1 a{
+            position: absolute;
+            top: 90%;
+            left: 45%;
+            color: wheat;
+            border: 1px solid #f0f0f0;
+            padding: 13px 42px;
+            border-radius: 4px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+           }
+           .btn-1 a:hover {
+            background-color: #f0f0f0;
+            color: black;
+     
+              }
+              .btn-2 a{
+                width: 160px;
+                height: 40px;
+                top: 1440px;
+                left:150px ;
+                position: absolute;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.5em;
+                border: solid 1px;
+                color: white;
+                border: 1px solid;
+              
+               }
+               .btn-2 a:hover {
+                background-color:white;
+                color: black;
+                
+              }
+              .btn-3 a{
+                width: 160px;
+                height: 40px;
+                top: 1440px;
+                left:590px ;
+                position: absolute;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.5em;
+                border: solid 1px;
+                color: white;
+                border: 1px solid;
+              
+               }
+               .btn-3 a:hover {
+                background-color:white;
+                color: black;
+                
+              }
+              .btn-4 a{
+                width: 160px;
+                height: 40px;
+                top: 1440px;
+                left:1040px ;
+                position: absolute;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1.5em;
+                border: solid 1px;
+                color: white;
+                border: 1px solid;
+              
+               }
+               .btn-4 a:hover {
+                background-color:white;
+                color: black;
+                
+              }
+              .btn-5 a{
+                padding: 5px ;
+                position: absolute;
+                width: 300px;
+                height: 40px;
+                top: 1880px;
+                left:860px ;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                border: solid 1px;
+                background-color: whitesmoke;
+               }
+               .btn-5 a:hover {
+                background-color:black;
+                color: white;
+                
+              }
+              .btn-6 a{
+                padding: 5px ;
+                position: absolute;
+                width: 300px;
+                height: 40px;
+                top: 2340px;
+                left:160px ;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-size: 1.2em;
+                border: solid 1px;
+                background-color: whitesmoke;
+               }
+               .btn-6 a:hover {
+                background-color:black;
+                color: white;
+                
+              }
+             
+              .btn-7 a{
+                padding: 5px ;
+                position: absolute;
+                width: 300px;
+                height: 40px;
+                top: 2760px;
+                left:850px ;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-size: 1.2em;
+                border: solid 1.1px;
+                background-color: whitesmoke;
+               }
+               .btn-7 a:hover {
+                background-color:black;
+                color: white;
+                
+              }
+              .btn-8 a{
+                padding: 5px ;
+                position: absolute;
+                width: 300px;
+                height: 40px;
+                top: 3260px;
+                left:170px ;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-size: 1.2em;
+                border: solid 1.1px;
+                background-color: whitesmoke;
+               }
+               .btn-8 a:hover {
+                background-color:black;
+                color: white;
+                
+              }
+              .btn-9 a{
+                padding: 5px ;
+                position: absolute;
+                width: 300px;
+                height: 40px;
+                top: 3680px;
+                left: 860px ;
+                text-align: center;
+                text-decoration: none;
+                color: black;
+                font-size: 1.2em;
+                border: solid 1.1px;
+                background-color: whitesmoke;
+               }
+               .btn-9 a:hover {
+                background-color:black;
+                color: white;
+                
+              }
+        .text{
+            position: relative;
+            top: 175px;
+            left: 100px;
+            width: 90%;
+            text-align: center;
+        }
+        .col-2{
+            width: 15%;
+        }
+        .col-8 ul{
+            width: 70%;
+            text-align: center;
+            font-size: 1.1em;
+            margin-left: 200px;
+        }
+        .col-8 ul li :hover{
+            text-decoration:underline solid 2.7px  black ;
+              margin: 5px;
+
+        }
+        section h2{
+            font-size: 48px;
+            margin: 52px 0px 52px 0px
+        }
+        .col-8 h5{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+        .dark-blue{
+            background-color: purple;
+            color: white;
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+        .blue{
+            background-color: #04389e;
+            color: white;
+        }
+        section .col-4{
+            padding: 60px 24px;
+        }
+        .col-4 h2{
+            font-size: 36px;
+            margin: 0;
+        }
+        .col-4 .col-2{
+            width: 15%;
+            margin-top: 20px;
+        }
+        .col-4 .col-10{
+            width: 85%;
+            padding: 0px 16px;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        .align{
+            display: flex;
+        }
+        .col-10 p{
+            margin-bottom: 50px;
+            font-size: 20px;
+        }
+        .col-6{
+           max-width: 50%;
+        }
+        .col-6 img{
+            width: 100%;
+            height: 100%;
+        }
+        .col-6 h2,.col-6 .align-items{
+            margin: 50px 100px 50px 100px;
+        }
+        .col-6 h2{
+            font-size: 32px;
+        }
+        .col-6 .align-items .col-2{
+            width: 15%;
+        }
+        .col-6 .align-items .col-10{
+            width: 85%;
+            margin-left: 16px;
+        }
+        .col-6 .align-items .col-10 p{
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+        .align-items{
+            display: flex;
+        }
+        .btn-black{
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            padding: 12px 30px;
+            font-size: 18px;
+        }
+        .red-bg{
+            background-color: hsl(350, 86%, 48%);
+            color: white;
+            padding: 100px 40px;
+            font-family: 'Poppins',sans-serif;
+        }
+        .red-bg h1{
+            font-size: 76px;
+            margin:0px;
+        }
+        .red-bg h1 sup{
+            font-size: 18px;
+            margin-left: 12px;
+        }
+        .red-bg .col-4 {
+            padding: 0px 24px;
+            text-align: center;
+            font-weight: 600;
+        }
+        .dotted-border{
+            border-left: 2px dotted white;
+            border-right: 2px dotted white;
+        }
+        .red-bg p{
+            font-size: 14px;
+        }
+        footer .container{
+            background-image: url(https://www.ignitiv.com/wp-content/uploads/2020/08/Footer.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px;
+            color: white;
+        }
+        footer span{
+            display: inline-block;
+            margin-right: 10px;
+            color: #06f;
+        }
+        footer .col-3{
+            width: 25%;
+            padding: 10px;
+        }
+        .col-3 li{
+            display: flex;
+            margin-bottom: 18px;
+
+        }
+        .col-3 a{
+            color: #06f;
+            text-decoration-line: none;
+        }
+        footer ul {
+            display: block;
+            justify-content: space-around;
+            list-style: none;
+            /* margin-top: 28px; */
+            padding: 0;
+        }
+        footer li div{
+            color: white;
+            color: #06f;
+            margin-right: 10px;
+        }
+        footer ul li p{
+            margin: 0;
+        }
+        .social i{
+            font-size: 35px;
+            float: left;
+            padding: 10px;
+            color:#191970;
+        }
+        .linkedin{
+            color: #06f;
+            
+        }
+        .twitter{
+            color: #55ACEE;
+            font-size: 35px;
+            float: left;
+            padding: 10px;
+        }
+      
+       
+.copyright
+{
+  height: 30px;
+background-color:#080822;
+color: white;
+padding: 27px;
+text-align:center;
+width: 96%;
+font-size: 16px;
+margin-top: -17px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.linkedin{
+    color: #06f;
+    font-size: 35px;
+    float: left;
+    padding: 10px;
+}
+.twitter{
+    color: #55ACEE;
+    font-size: 35px;
+    float: left;
+    padding: 10px;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="container hero-baner">
+            <div class="row">
+                <div class="col col-4">
+                    <h1 class="logo">ignitiv</h1>
+                </div>
+                <div class="col col-8">
+                    <ul>
+                        <li><a href="#" class="nav-bar">Solution</a></li>
+                        <li><a href="#" class="nav-bar">Services</a></li>
+                        <li><a href="#" class="nav-bar">Work</a></li>
+                        <li><a href="#" class="nav-bar">Partners</a></li>
+                        <li><a href="#" class="nav-bar">About Us</a></li>
+                        <li><a href="#" class="nav-bar">Insights</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text">
+                    <h1>Revolutionize your customer experirence. <span>B2B / B2C. Online / Offline. Everywhere.</span></h1>
+                      <div class="btn-1">
+                        <a href="#" class="btn">Learn More</a>
+
+                      </div>  
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+                    <h2>Lead The Experience Economy</h2>
+                    <p>As the world emerges from Covid and customers evolve new ways of engaging with companies, organizations can delight their customers through the digital transformation of customer experience consistently across channels and throughout their journeys. In fact, digital transformation of customer experience will be the primary strategic driver for organizations across industries. To lead the experience economy, you will need an able partner that brings the right mix of strategy, technology, design, and AI skills to help deliver those transformative experiences for your customers. Ignitiv is your partner of choice.Let’s grow your business together!</p>
+                    <p>Let’s grow your business together!</p>
+                    <h5><strong>#leadtheexperienceeconomy</strong></h5>
+                </div>
+                <div class="col-2">
+
+                </div>
+            </div>
+            <div class="row cards">
+                <div class="col col-4 dark-blue">
+                    <h2>Singular Focus on Customer Experience</h2>
+                    <div class="align">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>We only solve Customer Experience problems for our clients. Not ERP or Supply Chain. It is precisely this solution focus that helps us continue to learn better and deliver more.</p>
+                            <div class="btn-2">
+                                <a href="#" class="btn">Learn More</a>
+   
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-4 black">
+                    <h2>Deep expertise with partner platforms</h2>
+                    <div class="align">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>We work with select partners. Such as Kibo, Oracle and Magento. We enrich our expertise continually with every engagement. And deliver customer experience solutions reliably.</p>
+                           <div class="btn-3">
+                            <a href="#" class="btn">Learn More</a>
+                           </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-4 blue">
+                    <h2>Driven by AI powered Insights</h2>
+                    <div class="align">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>We believe deeply in the power of AI to continually transform customer experience of our clients. So much so we built a whole new company focused on Customer Insights.</p>
+                           <div class="btn-4">
+                            <a href="#" class="btn">Learn More</a>
+
+                           </div>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://www.ignitiv.com/wp-content/uploads/2021/06/accelerate-growth.jpg" alt="Image">
+                </div>
+                <div class="col-6">
+                    <h2>5 Reasons why Unified Commerce will accelerate growth</h2>
+                    <div class="align-items">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>Unleash unprecedented growth with a Unified commerce platform. Empower your business to deliver personalized experiences. Get this guide today to understand how to create a truly frictionless shopping experience.</p>
+                           <div class="btn-5">
+                            <a href="#" class="btn-black">Download our white paper</a>
+                           </div>
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h2>The 2022 eCommerce Re-platforming Playbook</h2>
+                    <div class="align-items">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>Contact us for a free session to discuss with industry experts and walk through an essential checklist as you embark on your eCommerce re-platforming project. You will also receive an extremely useful whitepaper.</p>
+                           <div class="btn-6">
+                            <a href="#" class="btn-black">Download our white paper</a>
+
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="https://www.ignitiv.com/wp-content/uploads/2021/06/eCommerce-Re-platforming.jpg" alt="Image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://www.ignitiv.com/wp-content/uploads/2021/06/Digital-Roadmap.jpg" alt="Image">
+                </div>
+                <div class="col-6">
+                    <h2>Digital Roadmap for Home Improvement Retail</h2>
+                    <div class="align-items">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>Gear up to ride the transformational wave hitting the Home Improvement Retail Industry. A handy whitepaper with actionable and proven digital building blocks will be your compass.</p>
+                            
+                            <div class="btn-7">
+                     <a href="#" class="btn-black">Download our white paper</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h2>B2B eCommerce strategy elements for distributors with Epicor P21 ERP</h2>
+                    <div class="align-items">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>Organizations in the Distribution industry must assess and renew their digital strategy for the years ahead. Check out our whitepaper detailing the 5 Key Elements for success while integrating an Ecommerce Platform with your Prophet21 ERP</p>
+                           
+                           <div class="btn-8">
+                            <a href="#" class="btn-black">Download our white paper</a>
+                           </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="https://www.ignitiv.com/wp-content/uploads/2021/06/B2B-eCommerce-strategy.jpg" alt="Image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://www.ignitiv.com/wp-content/uploads/2021/06/B2B-Organizations.jpg" alt="Image">
+                </div>
+                <div class="col-6">
+                    <h2>Top Questions B2B Organizations Have About eCommerce</h2>
+                    <div class="align-items">
+                        <div class="col-2"><hr></div>
+                        <div class="col-10">
+                            <p>B2B Commerce is expected to grow 17.5% compounded to approximately 20 Trillion USD in 2027. Download our latest Whitepaper to find answers to the questions on top of your mind on B2B eCommerce.</p>
+                           <div class="btn-9">
+                            <a href="#" class="btn-black">Download our white paper</a>
+
+                           </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container red-bg">
+            <div class="row">
+                <div class="col-4">
+                    <h1>25<sup>Brands</sup></h1>
+                    <p>Leading the Experience Economy</p>
+                </div>
+                <div class="col-4 dotted-border">
+                    <h1>100+<sup>CX Champions</sup></h1>
+                    <p>Delivering transformative experiences</p>
+                </div>
+                <div class="col-4">
+                    <h1>75<sup>Projects</sup></h1>
+                    <p>Yielding rapid growth & customer satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h2>About Ignitiv</h2>
+                    <p>Ignitiv is a consulting and technology company focused on Customer Experience.We deliver solutions for ecommerce & stores, mobile & social across a range of industries... </p>
+                    <a href="#">Read more</a>
+                </div>
+                <div class="col-3">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><span>></span> Solutions</li>
+                        <li><span>></span> Work</li>
+                        <li><span>></span> Careers</li>
+                        <li><span>></span> Partners</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h2>Solutions</h2>
+                    <ul>
+                        <li>Customer Experience (CX)</li>
+                        <li>Solutions : enterprice</li>
+                        <li>eCommerce Solutions</li>
+                        <li>CX Solutions Stores : Customer</li>
+                        <li>Experience Management</li>
+                        <li>Middle Office Solutions</li>
+                        <li>Cloud Solutions</li>
+                        <li>Customer Insights</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li><div><i class="fa-solid fa-location-dot"></div></i><p>19925 Stevens Creek Blvd,,<br> Ste 100, Cupertino<br> CA 95014</p></li>
+                        <li><div><i class="fa-solid fa-phone"></i></div>+1.408.892.1910</li>
+                        <li><div><i class="fa-solid fa-envelope"></i></div>info@ignitiv.com</li>
+                    </ul>
+                </ul>
+                <div class="social">
+                    <div class="fb">
+                       
+                        <i class="fa-brands fa-square-facebook"></i>
+
+                       
+                    </div>
+                   
+                </div>
+                <div class="linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div>
+                    <div class="twitter">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+        <hr>
+       <div class="copyright">
+          Copyright 2022 <a href="" style="text-decoration: none; color:blue"> ignitiv.com </a> | All Rights Reserved
+          <div class="angleup" onclick="scrollToTop()" style="height: 29px; width:29px; float: right; background-color: black; padding: 10px 10px; text-align: center;">
+            <i style="text-align: center;" class="fa-sharp fa-solid fa-angle-up"></i>
+          </div>
+        </div>
+        
+    </footer>
+</body>
+</html>
